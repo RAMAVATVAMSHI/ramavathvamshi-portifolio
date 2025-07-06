@@ -102,10 +102,12 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-indigo-600 p-1 animate-pulse">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-700 flex items-center justify-center">
-                  <div className="w-72 h-72 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-6xl font-bold">
-                    RV
-                  </div>
+                <div className="w-full h-full rounded-full bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-700 flex items-center justify-center overflow-hidden">
+                  <img 
+                    src="https://i.postimg.cc/0Nzb0trb/Screenshot-20250305-142647.jpg" 
+                    alt="Ramavath Vamshi" 
+                    className="w-72 h-72 rounded-full object-cover"
+                  />
                 </div>
               </div>
               {/* Floating elements */}
