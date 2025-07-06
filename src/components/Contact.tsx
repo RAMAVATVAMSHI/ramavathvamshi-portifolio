@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { Mail, Phone, Linkedin, Github, Twitter, Instagram, Send, MapPin } from 'lucide-react';
+import { Mail, Linkedin, Github, Twitter, Instagram, Send, MapPin } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -31,13 +30,6 @@ const Contact = () => {
       value: 'ramavathvamshi2002@gmail.com',
       href: 'mailto:ramavathvamshi2002@gmail.com',
       color: 'from-red-500 to-red-600'
-    },
-    {
-      icon: Phone,
-      label: 'Phone',
-      value: '+91 9392375019',
-      href: 'tel:+919392375019',
-      color: 'from-green-500 to-green-600'
     },
     {
       icon: MapPin,
