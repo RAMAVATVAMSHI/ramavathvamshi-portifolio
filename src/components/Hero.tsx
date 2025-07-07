@@ -38,10 +38,6 @@ const Hero = () => {
     { icon: Mail, href: 'mailto:ramavathvamshi2002@gmail.com', label: 'Email' },
   ];
 
-  const handleViewResume = () => {
-    window.open('https://i.postimg.cc/XYmymMRw/Ramavath-Vamshi-Resume.png', '_blank');
-  };
-
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-20 px-6">
       <div className="container mx-auto">
@@ -75,10 +71,7 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4">
-              <button 
-                onClick={handleViewResume}
-                className="group flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-              >
+              <button className="group flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
                 <Download className="h-5 w-5 group-hover:animate-bounce" />
                 <span>View Resume</span>
               </button>
