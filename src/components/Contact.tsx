@@ -3,6 +3,7 @@ import React from 'react';
 import ContactInfo from './ContactInfo';
 import SocialLinks from './SocialLinks';
 import ContactForm from './ContactForm';
+import { Toaster } from '@/components/ui/toaster';
 
 const Contact = () => {
   return (
@@ -41,6 +42,7 @@ const Contact = () => {
           </p>
         </div>
       </div>
+      <Toaster />
     </section>
   );
 };
